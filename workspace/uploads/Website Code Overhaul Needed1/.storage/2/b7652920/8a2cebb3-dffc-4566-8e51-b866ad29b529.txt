@@ -1,0 +1,10 @@
+$ ls -la
+total 15619
+drwxr-xr-x 603 root root 8003584 Sep  2  2025 .
+drwxr-xr-x   1 root root      97 Sep  2 22:31 ..
+drwxr-xr-x   2 root root    4096 Sep  2  2025 .MGXTools
+drwxr-xr-x  50 root root  208896 Sep  2 22:31 .git
+-rw-r--r--   1 root root    1472 Sep  2 22:31 .gitattributes
+-rw-r--r--   1 root root     476 Sep  2 22:31 .gitignore
+-rw-r--r--   1 root root     159 Sep  2  2025 .timeline.json
+drwxr-xr-x 549 root root 7774208 Sep  2 22:32 uploads

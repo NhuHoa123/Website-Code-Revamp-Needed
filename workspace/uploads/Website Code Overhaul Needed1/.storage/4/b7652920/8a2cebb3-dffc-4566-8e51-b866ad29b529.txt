@@ -1,0 +1,41 @@
+$ ls -la
+total 15619
+drwxr-xr-x 603 root root 8003584 Sep  2  2025 .
+drwxr-xr-x   1 root root      97 Sep  2 22:31 ..
+drwxr-xr-x   2 root root    4096 Sep  2  2025 .MGXTools
+drwxr-xr-x  50 root root  208896 Sep  2 22:31 .git
+-rw-r--r--   1 root root    1472 Sep  2 22:31 .gitattributes
+-rw-r--r--   1 root root     476 Sep  2 22:31 .gitignore
+-rw-r--r--   1 root root     159 Sep  2  2025 .timeline.json
+drwxr-xr-x 549 root root 7774208 Sep  2 22:32 uploads
+$ find . -type f -name "*.html" -o -name "*.js" -o -name "*.css" -o -name "*.tsx" -o -name "*.ts" -o -name "*.json" | head -20
+
+./.timeline.json
+./uploads/Modern Office Supplies Site/.storage/10/eb26e22e/PageTransition.tsx
+./uploads/Modern Office Supplies Site/.storage/13/eb1d817b/Navigation.tsx
+./uploads/Modern Office Supplies Site/.storage/14/2f5532c0/Footer.tsx
+./uploads/Modern Office Supplies Site/.storage/17/def74c2c/HomePage.tsx
+./uploads/Modern Office Supplies Site/.storage/18/f2c6a1b8/App.tsx
+./uploads/Modern Office Supplies Site/.storage/19/e1bab444/index.html
+./uploads/Modern Office Supplies Site/.storage/2/4f28936a/test-f7ec727e-f8c9-4ae9-99ee-ba5975c29060.json
+./uploads/Modern Office Supplies Site/.storage/21/86dc8827/package.json
+./uploads/Modern Office Supplies Site/.storage/22/eb0f8f94/App.tsx
+./uploads/Modern Office Supplies Site/.storage/24/78dd2073/ProductsPage.tsx
+./uploads/Modern Office Supplies Site/.storage/25/980a7d52/CartPage.tsx
+./uploads/Modern Office Supplies Site/.storage/27/1bc2a60f/NotFoundPage.tsx
+./uploads/Modern Office Supplies Site/.storage/28/e1d0d0e5/AboutPage.tsx
+./uploads/Modern Office Supplies Site/.storage/29/b1e72ce1/ContactPage.tsx
+./uploads/Modern Office Supplies Site/.storage/3/7e99f5dd/App.tsx
+./uploads/Modern Office Supplies Site/.storage/31/9240028f/WishlistPage.tsx
+./uploads/Modern Office Supplies Site/.storage/32/3da04a03/AccountPage.tsx
+./uploads/Modern Office Supplies Site/.storage/34/ad6f9466/ProductDetailPage.tsx
+./uploads/Modern Office Supplies Site/.storage/36/0e093ff9/CheckoutPage.tsx
+$ cd "uploads/Modern Office Supplies Site" && ls -la
+
+total 22764
+drwxr-xr-x 548 root root 7770112 Sep  2 22:32 .
+drwxr-xr-x 549 root root 7774208 Sep  2 22:32 ..
+drwxr-xr-x  89 root root  495616 Sep  2 22:32 .storage
+drwxr-xr-x   9 root root 1617920 Sep  2 22:32 build
+drwxr-xr-x   3 root root   12288 Sep  2 22:32 cover
+drwxr-xr-x 449 root root 5640192 Sep  2 22:32 workspace
