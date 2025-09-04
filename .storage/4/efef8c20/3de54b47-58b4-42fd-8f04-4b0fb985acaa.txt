@@ -1,0 +1,25 @@
+$ ls -la /workspace/uploads/
+total 38104
+drwxr-xr-x  974 root root 12931072 Sep  3 06:59 .
+drwxr-xr-x 1028 root root 13160448 Sep  3 06:59 ..
+drwxr-xr-x  973 root root 12926976 Sep  3 06:59 Website Code Overhaul Needed1
+$ ls -la "/workspace/uploads/Website Code Overhaul Needed1/"
+
+total 37872
+drwxr-xr-x 973 root root 12926976 Sep  3 06:59 .
+drwxr-xr-x 974 root root 12931072 Sep  3 06:59 ..
+drwxr-xr-x  86 root root   475136 Sep  3 06:59 .storage
+drwxr-xr-x 887 root root 12447744 Sep  3 06:59 workspace
+$ ls -la "/workspace/uploads/Website Code Overhaul Needed1/workspace/"
+
+total 36921
+drwxr-xr-x 887 root root 12447744 Sep  3 06:59 .
+drwxr-xr-x 973 root root 12926976 Sep  3 06:59 ..
+-rw-r--r--   1 root root  1350899 Sep  3 06:59 .MGXEnv.json
+drwxr-xr-x   3 root root     8192 Sep  3 06:59 .MGXTools
+drwxr-xr-x 240 root root  1986560 Sep  3 06:59 .git
+-rw-r--r--   1 root root     1472 Sep  3 06:59 .gitattributes
+-rw-r--r--   1 root root      476 Sep  3 06:59 .gitignore
+-rw-r--r--   1 root root      542 Sep  3 06:59 .timeline.json
+-rw-r--r--   1 root root     2497 Sep  3 06:59 .wiki.md
+drwxr-xr-x 640 root root  9080832 Sep  3 06:59 uploads

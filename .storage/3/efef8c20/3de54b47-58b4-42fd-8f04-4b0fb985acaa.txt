@@ -1,0 +1,12 @@
+$ ls -la /workspace/uploads/
+total 38104
+drwxr-xr-x  974 root root 12931072 Sep  3 06:59 .
+drwxr-xr-x 1028 root root 13160448 Sep  3 06:59 ..
+drwxr-xr-x  973 root root 12926976 Sep  3 06:59 Website Code Overhaul Needed1
+$ ls -la "/workspace/uploads/Website Code Overhaul Needed1/"
+
+total 37872
+drwxr-xr-x 973 root root 12926976 Sep  3 06:59 .
+drwxr-xr-x 974 root root 12931072 Sep  3 06:59 ..
+drwxr-xr-x  86 root root   475136 Sep  3 06:59 .storage
+drwxr-xr-x 887 root root 12447744 Sep  3 06:59 workspace

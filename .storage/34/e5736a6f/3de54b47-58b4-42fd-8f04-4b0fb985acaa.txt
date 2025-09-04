@@ -1,0 +1,60 @@
+$ pnpm run lint
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+/workspace/shadcn-ui/src/components/xr/WebXRPreview.tsx
+  86:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/workspace/shadcn-ui/src/hooks/useAI.ts
+  33:71  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  90:63  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 3 problems (3 errors, 0 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.
+$ pnpm run lint && pnpm run build
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 2068 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              3.54 kB │ gzip:   1.39 kB
+dist/assets/index-wr78r8vI.css             112.85 kB │ gzip:  17.38 kB
+dist/assets/arrow-left-Chu5N2Ds.js           0.33 kB │ gzip:   0.27 kB
+dist/assets/shield-BdbyDyWG.js               0.44 kB │ gzip:   0.33 kB
+dist/assets/index-dGWgghc4.js                0.50 kB │ gzip:   0.37 kB
+dist/assets/trash-2-DwKWe_bv.js              0.53 kB │ gzip:   0.35 kB
+dist/assets/plus-BsiySeyo.js                 0.56 kB │ gzip:   0.27 kB
+dist/assets/label-3YBtKd7j.js                0.59 kB │ gzip:   0.39 kB
+dist/assets/star-DmsBpRND.js                 0.64 kB │ gzip:   0.40 kB
+dist/assets/separator-Dp4UY6QY.js            0.70 kB │ gzip:   0.42 kB
+dist/assets/card-C4nAFwOd.js                 0.99 kB │ gzip:   0.38 kB
+dist/assets/users-Cw-Ir6OX.js                1.23 kB │ gzip:   0.50 kB
+dist/assets/index-DxwOhbOh.js                2.13 kB │ gzip:   0.95 kB
+dist/assets/NotFoundPage-B3HJEYAf.js         2.33 kB │ gzip:   1.02 kB
+dist/assets/index-D2nqDPy9.js                3.82 kB │ gzip:   1.70 kB
+dist/assets/checkbox-BAfkJwGv.js             3.96 kB │ gzip:   1.74 kB
+dist/assets/WishlistPage-DIiBT1ab.js         5.17 kB │ gzip:   1.86 kB
+dist/assets/CartPage-2Teu2tKT.js             5.92 kB │ gzip:   1.79 kB
+dist/assets/tabs-PkhP_3Zs.js                 6.65 kB │ gzip:   2.64 kB
+dist/assets/AboutPage-BhmwPGsw.js            8.47 kB │ gzip:   2.77 kB
+dist/assets/ContactPage-0Q6flq_s.js          8.56 kB │ gzip:   2.93 kB
+dist/assets/CheckoutPage-D4pi-CiG.js        10.06 kB │ gzip:   2.90 kB
+dist/assets/ProductDetailPage-B0A3ZI2y.js   12.53 kB │ gzip:   3.72 kB
+dist/assets/AccountPage-8NlxGsyo.js         14.17 kB │ gzip:   4.31 kB
+dist/assets/ProductsPage-ZV9ZLX8Q.js        17.86 kB │ gzip:   6.46 kB
+dist/assets/HomePage-DFXPdJkN.js            38.36 kB │ gzip:  11.50 kB
+dist/assets/select-l_sEfVU_.js              69.89 kB │ gzip:  24.41 kB
+dist/assets/index-9v1QYsQM.js              415.79 kB │ gzip: 131.02 kB
+✓ built in 9.27s

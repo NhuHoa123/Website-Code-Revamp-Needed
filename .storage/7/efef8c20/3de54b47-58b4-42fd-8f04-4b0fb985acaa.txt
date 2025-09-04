@@ -1,0 +1,59 @@
+$ ls -la /workspace/uploads/
+total 38104
+drwxr-xr-x  974 root root 12931072 Sep  3 06:59 .
+drwxr-xr-x 1028 root root 13160448 Sep  3 06:59 ..
+drwxr-xr-x  973 root root 12926976 Sep  3 06:59 Website Code Overhaul Needed1
+$ ls -la "/workspace/uploads/Website Code Overhaul Needed1/"
+
+total 37872
+drwxr-xr-x 973 root root 12926976 Sep  3 06:59 .
+drwxr-xr-x 974 root root 12931072 Sep  3 06:59 ..
+drwxr-xr-x  86 root root   475136 Sep  3 06:59 .storage
+drwxr-xr-x 887 root root 12447744 Sep  3 06:59 workspace
+$ ls -la "/workspace/uploads/Website Code Overhaul Needed1/workspace/"
+
+total 36921
+drwxr-xr-x 887 root root 12447744 Sep  3 06:59 .
+drwxr-xr-x 973 root root 12926976 Sep  3 06:59 ..
+-rw-r--r--   1 root root  1350899 Sep  3 06:59 .MGXEnv.json
+drwxr-xr-x   3 root root     8192 Sep  3 06:59 .MGXTools
+drwxr-xr-x 240 root root  1986560 Sep  3 06:59 .git
+-rw-r--r--   1 root root     1472 Sep  3 06:59 .gitattributes
+-rw-r--r--   1 root root      476 Sep  3 06:59 .gitignore
+-rw-r--r--   1 root root      542 Sep  3 06:59 .timeline.json
+-rw-r--r--   1 root root     2497 Sep  3 06:59 .wiki.md
+drwxr-xr-x 640 root root  9080832 Sep  3 06:59 uploads
+$ find "/workspace/uploads/Website Code Overhaul Needed1/workspace" -name "*.html" -o -name "*.js" -o -name "*.css" -o -name "*.json" -o -name "*.md" | head -20
+
+/workspace/uploads/Website Code Overhaul Needed1/workspace/.MGXEnv.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/.MGXTools/9a4ea84c669042e0ba68f69de7fc8c49.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/.timeline.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/.wiki.md
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/.storage/19/e1bab444/index.html
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/.storage/2/4f28936a/test-f7ec727e-f8c9-4ae9-99ee-ba5975c29060.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/.storage/21/86dc8827/package.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/build/original/assets/index-COwvjjJ_.css
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/build/original/assets/index-VRMN-ptI.js
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/build/original/index.html
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/.MGXEnv.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/.MGXTools/cf0248e7b668475f89ccaa9ef07522da.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/.timeline.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/.wiki.md
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/README.md
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/components.json
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/dist/assets/AboutPage-vW0smt2w.js
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/dist/assets/AccountPage-Buygyq1v.js
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/dist/assets/CartPage-CkhUfTA7.js
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/dist/assets/CheckoutPage-dV5Lkvfi.js
+$ find "/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src" -name "*.tsx" -o -name "*.ts" | head -10
+
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/App.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/3d/Product3D.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/3d/SafeProduct3D.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/AboutSection.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/ContactSection.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/ErrorBoundary.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/Footer.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/Hero.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/Navigation.tsx
+/workspace/uploads/Website Code Overhaul Needed1/workspace/uploads/Modern Office Supplies Site/workspace/shadcn-ui/src/components/ProductShowcase.tsx
